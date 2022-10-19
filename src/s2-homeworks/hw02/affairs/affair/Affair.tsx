@@ -24,16 +24,8 @@ function Affair(props: AffairPropsType) {
             id={'hw2-affair-' + props.affair._id}
             className={affairClass}
         >
-            <div id={'hw2-name-' + props.affair._id} className={nameClass}>
-                {/*создаёт студент*/}
-
-                {props.affair.name}
-            </div>
-            <div id={'hw2-priority-' + props.affair._id} hidden>
-                {/*создаёт студент*/}
-
-                {props.affair.name}
-            </div>
+            <div id={'hw2-name-' + props.affair.name} className={nameClass}>{props.affair.name}</div>
+            <div id={'hw2-priority-' + props.affair.priority} hidden>{props.affair.name}</div>
 
             <button
                 id={'hw2-button-delete-' + props.affair._id}
@@ -41,12 +33,7 @@ function Affair(props: AffairPropsType) {
                 // need to fix
                 onClick={() => deleteCallback(props.affair._id)}
 
-            >
-                {/*текст кнопки могут изменить студенты*/}
-                X
-                {/**/}
-
-            </button>
+            >X</button>
         </div>
     )
 }
