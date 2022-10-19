@@ -39,7 +39,7 @@ const defaultAffairs: AffairPropsType = [ // need to fix any
 ]
 
 // pure helper functions
-export const filterAffairs = (affairs: AffairPropsType, filter: FilterType): any => { // need to fix any
+export const filterAffairs = (affairs: AffairPropsType, filter: FilterType): AffairPropsType => { // need to fix any
     let task = affairs
     if (filter === 'low') {
          task = affairs.filter(f => f.priority === 'low')
@@ -52,7 +52,7 @@ export const filterAffairs = (affairs: AffairPropsType, filter: FilterType): any
     }
     return task // need to fix
 }
-export const deleteAffair = (affairs: AffairPropsType, _id: number): any => { // need to fix any
+export const deleteAffair = (affairs: AffairPropsType, _id: number): AffairPropsType => { // need to fix any
 
     let task = affairs.filter(f => f._id != _id)
     return task // need to fix
