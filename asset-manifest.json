@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/DZ-Ignat/static/css/main.722271d6.css",
-    "main.js": "/DZ-Ignat/static/js/main.054e3535.js",
+    "main.css": "/DZ-Ignat/static/css/main.13c94cca.css",
+    "main.js": "/DZ-Ignat/static/js/main.beba8610.js",
     "static/js/787.66cb4309.chunk.js": "/DZ-Ignat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/DZ-Ignat/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/DZ-Ignat/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/DZ-Ignat/static/media/closeOutline.4bf75b232c2deca2d2bee99f801e13c4.svg",
+    "static/media/editIcon.svg": "/DZ-Ignat/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "static/media/chevron-down.svg": "/DZ-Ignat/static/media/chevron-down.dc1bc44c12d489302229.svg",
     "static/media/checked.svg": "/DZ-Ignat/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/DZ-Ignat/index.html",
     "static/media/burger.svg": "/DZ-Ignat/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.722271d6.css.map": "/DZ-Ignat/static/css/main.722271d6.css.map",
-    "main.054e3535.js.map": "/DZ-Ignat/static/js/main.054e3535.js.map",
+    "main.13c94cca.css.map": "/DZ-Ignat/static/css/main.13c94cca.css.map",
+    "main.beba8610.js.map": "/DZ-Ignat/static/js/main.beba8610.js.map",
     "787.66cb4309.chunk.js.map": "/DZ-Ignat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.722271d6.css",
-    "static/js/main.054e3535.js"
+    "static/css/main.13c94cca.css",
+    "static/js/main.beba8610.js"
   ]
 }
